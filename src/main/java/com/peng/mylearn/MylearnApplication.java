@@ -32,7 +32,7 @@ public class MylearnApplication {
             System.out.println("spring默认提供的Bean------");
             String[] names = applicationContext.getBeanDefinitionNames();
             Arrays.sort(names);
-            Arrays.stream(names).forEach(System.out::println);
+//            Arrays.stream(names).forEach(System.out::println);
         };
     }
 }
