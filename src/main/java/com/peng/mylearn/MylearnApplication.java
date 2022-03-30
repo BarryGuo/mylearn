@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MylearnApplication {
 
     public static void main(String[] args) {
+
+        //master tijiao
         SpringApplication.run(MylearnApplication.class, args);
     }
 
